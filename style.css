@@ -1,0 +1,33 @@
+* {
+    width: 100%;
+}
+
+
+.container {
+    border: 1px solid whitesmoke;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button {
+    
+    border-radius: 35px;
+    width: 30%;
+    height: 55px;
+    box-shadow: inset 0px 10px 5px 40px rgb(60, 101, 121);
+}
+
+.container-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+}
+
+.container-image #image {
+    width: 25%;
+    padding: 10px;
+
+}
